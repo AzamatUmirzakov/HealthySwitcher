@@ -1,0 +1,61 @@
+section.month-chefs {
+  background: #191919;
+  padding: 90px 0;
+}
+
+header.month-chefs-header {
+  margin-bottom: 35px;
+}
+
+div.month-chefs-title {
+  position: relative;
+  text-align: center;
+  h1 {
+    font-size: 100px;
+    font-family: "Lato Italic";
+    color: #303030;
+  }
+
+  h2.title-main {
+    position: absolute;
+    font-family: "Lato Thin";
+    font-size: 36px;
+    color: #d9d9d9;
+  }
+}
+
+div.chefs-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  div.chef {
+    width: 30%;
+    header.chef-name {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 60%;
+      margin-bottom: 25px;
+      div.chef-name-text {
+        h1 {
+          font-family: "Lato Bold";
+          font-size: 18px;
+          color: #fff;
+        }
+
+        p {
+          font-family: "Lato Regular";
+          font-size: 12px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+      }
+    }
+    div.chef-works {
+      display: flex;
+      justify-content: space-between;
+      img {
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -79,6 +79,6 @@ document.addEventListener('click', (e) => {
       if (child == target) {
         break;
       }
-    } 
+    }
   }
 })
