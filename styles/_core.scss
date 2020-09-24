@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+    font-weight: normal;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.center {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.bold-span {
+    font-weight: bold;
+}
+
+.green-button {
+    border-radius: 43px;
+    padding: 25px 50px;
+    background: #34C759;
+    color: #000;
+    font-family: "Lato Bold";
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #34C759;
+    &:hover {
+        transform: scale(1.2);
+    }
+    &:focus {
+        transform: scale(1.2);
+        outline: none;
+    }
+}
+
+hr.green-line {
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #34C759;
+    border: none;
+    outline: none;
+}
+
+.star-active {
+    color: #F9AD3D;
+}
+
+.star-active-permanent {
+    color: #F9AD3D;
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lato Thin";
+    src: url("../fonts/Lato-Thin.ttf");
+}
+
+@font-face {
+    font-family: "Lato Black";
+    src: url("../fonts/Lato-Black.ttf");
+}
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url("../fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Lato Italic";
+    src: url("../fonts/Lato-Italic.ttf");
+}

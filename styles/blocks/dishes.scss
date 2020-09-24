@@ -1,0 +1,126 @@
+section.dishes {
+  padding: 90px 0;
+  background: #191919;
+  div.dishes-title {
+      position: relative;
+      text-align: center;
+      margin-bottom: 60px;
+      h1 {
+        font-family: "Lato Italic";
+        font-size: 100px;
+        letter-spacing: 0.2em;
+        color: #303030;
+        font-weight: normal;
+      }
+      h2 {
+        font-family: "Lato Regular";
+        font-size: 30px;
+        color: #fff;
+        letter-spacing: 3.5px;
+        position: absolute;
+      }
+    }
+}
+
+div.dishes-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  div.dish-card {
+    margin-bottom: 20px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    header.dish-card {
+      font-size: 0;
+      position: relative;
+      img {
+        max-width: 100%;
+      }
+      button.dish-card-share {
+        outline: none;
+        display: inline-block;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 9999;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 10px;
+        border-radius: 50%;
+        &:hover {
+          cursor: pointer;
+          background: rgba(0, 0, 0, 0.7);
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    main.dish-card-content {
+      padding: 30px;
+      width: 350px;
+      box-sizing: border-box;
+      background: #252525;
+      div.dish-card-name {
+        margin-bottom: 20px;
+        font-family: "Lato Regular";
+        h1 {
+          font-family: "Lato Bold";
+          color: #D9D9D9;
+          font-size: 32px;
+        }
+        p {
+          color: #A4A8B2;
+          font-size: 12px;
+        }
+      }
+      p.choice {
+        color: #85878C;
+        font-family: "Lato Regular";
+        font-size: 13px;
+        margin-bottom: 25px;
+      }
+      div.action {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div.rate {
+          width: 60%;
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          span {
+            font-size: 19px;
+          }
+          span.number {
+            font-family: "Lato Italic";
+            font-size: 12px;
+            color: #B2B2B2;
+          }
+          span.star {
+            &:hover {
+              cursor: pointer;
+            }
+          }
+        }
+        button.order {
+          border: 3px solid #303030;
+          outline: none;
+          font-family: "Lato Italic";
+          font-size: 10px;
+          color: rgba(255, 255, 255, 0.5);
+          background: transparent;
+          padding: 15px 30px;
+          border-radius: 30px;
+          &:hover {
+            cursor: pointer;
+            border-color: #34C759;
+            background: #34C759;
+            color: #252525;
+          }
+        }
+      }
+    }
+  }
+}
