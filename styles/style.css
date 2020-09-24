@@ -23,12 +23,12 @@ body {
 .green-button {
   border-radius: 43px;
   padding: 25px 50px;
-  background: #34C759;
+  background: #34c759;
   color: #000;
   font-family: "Lato Bold";
   text-decoration: none;
   display: inline-block;
-  border: 3px solid #34C759;
+  border: 3px solid #34c759;
 }
 .green-button:hover {
   transform: scale(1.2);
@@ -43,17 +43,17 @@ hr.green-line {
   width: 60px;
   height: 2px;
   margin: 0 auto;
-  background-color: #34C759;
+  background-color: #34c759;
   border: none;
   outline: none;
 }
 
 .star-active {
-  color: #F9AD3D;
+  color: #f9ad3d;
 }
 
 .star-active-permanent {
-  color: #F9AD3D;
+  color: #f9ad3d;
 }
 
 @font-face {
@@ -76,6 +76,10 @@ hr.green-line {
   font-family: "Lato Italic";
   src: url("../fonts/Lato-Italic.ttf");
 }
+@font-face {
+  font-family: "Lato Light";
+  src: url("../fonts/Lato-Thin.ttf");
+}
 header.page-header {
   background: url("../images/header-bg.jpg");
   background-color: #191919;
@@ -97,7 +101,7 @@ header.page-header div.header-top div.header-top-inside div.header-logo {
   align-items: center;
   font-family: "Lato Black";
   font-weight: bold;
-  color: #34C759;
+  color: #34c759;
   letter-spacing: 3px;
   font-size: 12px;
 }
@@ -118,10 +122,10 @@ header.page-header div.header-top div.header-top-inside nav.header-nav a {
   text-decoration: none;
 }
 header.page-header div.header-top div.header-top-inside nav.header-nav a:hover {
-  color: #34C759;
+  color: #34c759;
 }
 header.page-header div.header-top div.header-top-inside nav.header-nav a:focus {
-  color: #34C759;
+  color: #34c759;
   outline: none;
 }
 
@@ -194,7 +198,7 @@ div.header-slider div.header-text div.header-title h1 {
   font-weight: normal;
 }
 div.header-slider div.header-text div.header-title h2 {
-  font-family: "Lato Thin";
+  font-family: "Lato Light";
   font-size: 30px;
   color: #fff;
   letter-spacing: 3.5px;
@@ -203,7 +207,7 @@ div.header-slider div.header-text div.header-title h2 {
 div.header-slider div.header-text p {
   font-family: "Lato Regular";
   font-size: 16px;
-  color: #A6A6A6;
+  color: #a6a6a6;
   line-height: 2;
 }
 div.header-slider div.header-slider-gallery {
@@ -259,7 +263,7 @@ section.work div.work-title h1 {
   font-weight: normal;
 }
 section.work div.work-title h2 {
-  font-family: "Lato Thin";
+  font-family: "Lato Light";
   font-size: 30px;
   color: #fff;
   letter-spacing: 3.5px;
@@ -285,7 +289,7 @@ section.work div.work-cards div.work-card h1 {
 section.work div.work-cards div.work-card hr {
   width: 56px;
   height: 2px;
-  background: #34C759;
+  background: #34c759;
   margin-bottom: 25px;
 }
 section.work div.work-cards div.work-card p {
@@ -294,12 +298,13 @@ section.work div.work-cards div.work-card p {
   color: rgba(255, 255, 255, 0.5);
 }
 section.work div.work-cards div.work-card:hover {
-  background: #34C759;
+  background: #34c759;
 }
 section.work div.work-cards div.work-card:hover hr {
   background: #191919;
 }
-section.work div.work-cards div.work-card:hover h1, section.work div.work-cards div.work-card:hover p {
+section.work div.work-cards div.work-card:hover h1,
+section.work div.work-cards div.work-card:hover p {
   color: #191919;
 }
 
@@ -320,7 +325,7 @@ section.dishes div.dishes-title h1 {
   font-weight: normal;
 }
 section.dishes div.dishes-title h2 {
-  font-family: "Lato Thin";
+  font-family: "Lato Light";
   font-size: 30px;
   color: #fff;
   letter-spacing: 3.5px;
@@ -376,15 +381,15 @@ div.dishes-cards div.dish-card main.dish-card-content div.dish-card-name {
 }
 div.dishes-cards div.dish-card main.dish-card-content div.dish-card-name h1 {
   font-family: "Lato Bold";
-  color: #D9D9D9;
+  color: #d9d9d9;
   font-size: 32px;
 }
 div.dishes-cards div.dish-card main.dish-card-content div.dish-card-name p {
-  color: #A4A8B2;
+  color: #a4a8b2;
   font-size: 12px;
 }
 div.dishes-cards div.dish-card main.dish-card-content p.choice {
-  color: #85878C;
+  color: #85878c;
   font-family: "Lato Regular";
   font-size: 13px;
   margin-bottom: 25px;
@@ -406,7 +411,7 @@ div.dishes-cards div.dish-card main.dish-card-content div.action div.rate span {
 div.dishes-cards div.dish-card main.dish-card-content div.action div.rate span.number {
   font-family: "Lato Italic";
   font-size: 12px;
-  color: #B2B2B2;
+  color: #b2b2b2;
 }
 div.dishes-cards div.dish-card main.dish-card-content div.action div.rate span.star:hover {
   cursor: pointer;
@@ -423,8 +428,8 @@ div.dishes-cards div.dish-card main.dish-card-content div.action button.order {
 }
 div.dishes-cards div.dish-card main.dish-card-content div.action button.order:hover {
   cursor: pointer;
-  border-color: #34C759;
-  background: #34C759;
+  border-color: #34c759;
+  background: #34c759;
   color: #252525;
 }
 
@@ -448,7 +453,7 @@ div.month-chefs-title h1 {
 }
 div.month-chefs-title h2.title-main {
   position: absolute;
-  font-family: "Lato Thin";
+  font-family: "Lato Light";
   font-size: 36px;
   color: #d9d9d9;
 }
@@ -484,6 +489,177 @@ div.chefs-list div.chef div.chef-works {
 }
 div.chefs-list div.chef div.chef-works img {
   border-radius: 5px;
+}
+
+section.recipes {
+  padding: 90px 0;
+  background: #191919;
+}
+
+header.recipes-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 60px;
+}
+header.recipes-header h1 {
+  font-size: 100px;
+  color: #303030;
+  font-family: "Lato Italic";
+}
+header.recipes-header h2.title-main {
+  position: absolute;
+  font-family: "Lato Light";
+  font-size: 36px;
+  color: #d9d9d9;
+}
+
+div.recipes-grid {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  column-gap: 5%;
+  grid-row-gap: 30px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+div.recipes-grid div.big-recipe {
+  position: relative;
+  grid-row: 1/4;
+  background-image: url("../images/big-recipe-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 60px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+div.recipes-grid div.big-recipe button.share-button {
+  background: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 54px;
+  height: 54px;
+}
+div.recipes-grid div.big-recipe button.share-button:hover {
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+div.recipes-grid div.big-recipe span.recipe-type {
+  margin-bottom: 65px;
+}
+div.recipes-grid div.big-recipe span.recipe-date {
+  display: block;
+  margin-bottom: 25px;
+}
+div.recipes-grid div.big-recipe h1.recipe-name {
+  line-height: 40px;
+  margin-bottom: 45px;
+}
+div.recipes-grid div.big-recipe span.recipe-chef {
+  font-family: "Lato Regular";
+  font-size: 16px;
+  color: #fff;
+  display: block;
+  margin-bottom: 60px;
+}
+div.recipes-grid div.big-recipe div.recipe-stats {
+  max-width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.recipes-grid div.big-recipe div.recipe-stats div {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.recipes-grid div.big-recipe div.recipe-stats div span {
+  font-family: "Lato Bold";
+  font-size: 20px;
+  color: #fff;
+}
+div.recipes-grid span.recipe-type {
+  display: inline-block;
+  padding: 10px 15px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  color: #fff;
+  font-family: "Lato Italic";
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+div.recipes-grid span.recipe-date {
+  font-family: "Lato Regular";
+  font-size: 14px;
+  color: #fff;
+}
+div.recipes-grid h1.recipe-name {
+  font-family: "Lato Regular";
+  color: #fff;
+}
+div.recipes-grid div.recipe {
+  background: #34c759;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.recipes-grid div.recipe h1.recipe-name {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+div.recipes-grid div.recipe div.recipe-details {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.recipes-grid div.recipe div.recipe-stats {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.recipes-grid div.recipe div.recipe-stats div {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.recipes-grid div.recipe div.recipe-stats div span {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Lato Bold";
+}
+div.recipes-grid div.recipe:nth-child(2) {
+  background: #252525;
+}
+div.recipes-grid div.recipe:nth-child(3) {
+  background-image: url("../images/recipe-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+div.recipes-grid div.recipe:last-child h1.recipe-name {
+  color: #252525;
+}
+div.recipes-grid div.recipe:last-child span.recipe-type {
+  background: black;
+  color: #fff;
+}
+div.recipes-grid div.recipe:last-child span {
+  color: #1a1a1a;
+}
+div.recipes-grid div.recipe:last-child div.recipe-stats div span {
+  color: #1a1a1a;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -2,24 +2,24 @@ section.dishes {
   padding: 90px 0;
   background: #191919;
   div.dishes-title {
-      position: relative;
-      text-align: center;
-      margin-bottom: 60px;
-      h1 {
-        font-family: "Lato Italic";
-        font-size: 100px;
-        letter-spacing: 0.2em;
-        color: #303030;
-        font-weight: normal;
-      }
-      h2 {
-        font-family: "Lato Thin";
-        font-size: 30px;
-        color: #fff;
-        letter-spacing: 3.5px;
-        position: absolute;
-      }
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    h1 {
+      font-family: "Lato Italic";
+      font-size: 100px;
+      letter-spacing: 0.2em;
+      color: #303030;
+      font-weight: normal;
     }
+    h2 {
+      font-family: "Lato Light";
+      font-size: 30px;
+      color: #fff;
+      letter-spacing: 3.5px;
+      position: absolute;
+    }
+  }
 }
 
 div.dishes-cards {
@@ -67,16 +67,16 @@ div.dishes-cards {
         font-family: "Lato Regular";
         h1 {
           font-family: "Lato Bold";
-          color: #D9D9D9;
+          color: #d9d9d9;
           font-size: 32px;
         }
         p {
-          color: #A4A8B2;
+          color: #a4a8b2;
           font-size: 12px;
         }
       }
       p.choice {
-        color: #85878C;
+        color: #85878c;
         font-family: "Lato Regular";
         font-size: 13px;
         margin-bottom: 25px;
@@ -96,7 +96,7 @@ div.dishes-cards {
           span.number {
             font-family: "Lato Italic";
             font-size: 12px;
-            color: #B2B2B2;
+            color: #b2b2b2;
           }
           span.star {
             &:hover {
@@ -115,8 +115,8 @@ div.dishes-cards {
           border-radius: 30px;
           &:hover {
             cursor: pointer;
-            border-color: #34C759;
-            background: #34C759;
+            border-color: #34c759;
+            background: #34c759;
             color: #252525;
           }
         }

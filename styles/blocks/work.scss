@@ -1,5 +1,5 @@
 $work-background-color: #191919;
-$work-card-active: #34C759;
+$work-card-active: #34c759;
 $work-card-inactive: #252525;
 
 section.work {
@@ -17,7 +17,7 @@ section.work {
       font-weight: normal;
     }
     h2 {
-      font-family: "Lato Thin";
+      font-family: "Lato Light";
       font-size: 30px;
       color: #fff;
       letter-spacing: 3.5px;
@@ -55,7 +55,8 @@ section.work {
         hr {
           background: $work-background-color;
         }
-        h1, p {
+        h1,
+        p {
           color: $work-background-color;
         }
       }
